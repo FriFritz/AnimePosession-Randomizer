@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    background-color: #fde6c7;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+
+.centerContent {
+    font-family: arial;
+    font-size: 24px;
+    height: 100vh;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+}
+
+#girlBtn {
+    background-color: #d24c52;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.buttons {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#girl {
+    border-radius: 1rem;
+    max-width: 100%;
+    width: auto;
+    height: 70vh;
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    #girl {
+        height: auto;
+        border-radius: 1rem;
+        max-width: 100%;
+        max-height: 70vh;
+        display: block;
+        width: auto;
+
+    }
+    
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    #girl {
+        height: auto;
+        border-radius: 1rem;
+        max-width: 100%;
+        max-height: 70vh;
+        display: block;
+        width: auto;
+
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #girl {
+        height: auto;
+        border-radius: 1rem;
+        max-width: 100%;
+        max-height: 70vh;
+        display: block;
+        width: auto;
+    }
+    
+}
